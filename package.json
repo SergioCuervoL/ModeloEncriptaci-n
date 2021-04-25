@@ -1,0 +1,17 @@
+{
+  "name": "algoritmos-sha",
+  "version": "1.0.0",
+  "description": "Algoritmos Sha",
+  "main": "AlgoritmoSHA256.js",
+  "dependencies": {
+    "crypto-browserify": "^3.11.0",
+    "crypto-js": "^4.0.0",
+    "node-libs-browser": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Cuervo León",
+  "license": "ISC"
+}
