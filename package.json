@@ -1,17 +1,36 @@
 {
-  "name": "algoritmos-sha",
+  "name": "node-express-firebase",
   "version": "1.0.0",
-  "description": "Algoritmos Sha",
-  "main": "AlgoritmoSHA256.js",
-  "dependencies": {
-    "crypto-browserify": "^3.11.0",
-    "crypto-js": "^4.0.0",
-    "node-libs-browser": "^2.2.1"
-  },
-  "devDependencies": {},
+  "description": "![](./docs/screenshot.png)",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "author": "Sergio Cuervo León",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "admin": "^1.4.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "firebase": "^8.4.0",
+    "firebase-admin": "^8.13.0",
+    "firebase-app": "0.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaztWeb/nodejs-firebase-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FaztWeb/nodejs-firebase-example/issues"
+  },
+  "homepage": "https://github.com/FaztWeb/nodejs-firebase-example#readme"
 }
